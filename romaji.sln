@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "romaji", "romaji\romaji.csproj", "{6FA98AEC-37EF-481E-8BB9-1509465BB27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanaKana", "WanaKanaSharp\Core\WanaKana.csproj", "{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{DA72B7EE-1817-4E9B-9B43-1359270B6C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WanaKana.Test.Unit", "WanaKanaSharp\Test\WanaKana.Test.Unit.csproj", "{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA98AEC-37EF-481E-8BB9-1509465BB27B}.Debug|x86.ActiveCfg = Debug|x86
+		{6FA98AEC-37EF-481E-8BB9-1509465BB27B}.Debug|x86.Build.0 = Debug|x86
+		{6FA98AEC-37EF-481E-8BB9-1509465BB27B}.Release|x86.ActiveCfg = Release|x86
+		{6FA98AEC-37EF-481E-8BB9-1509465BB27B}.Release|x86.Build.0 = Release|x86
+		{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA}.Debug|x86.Build.0 = Debug|Any CPU
+		{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA}.Release|x86.ActiveCfg = Release|Any CPU
+		{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA}.Release|x86.Build.0 = Release|Any CPU
+		{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5E9A1B2-95D3-45BD-9CE2-121887BFFFEA} = {DA72B7EE-1817-4E9B-9B43-1359270B6C11}
+		{0FC545E0-13BF-4EE5-AC13-BBEDFCE0734C} = {DA72B7EE-1817-4E9B-9B43-1359270B6C11}
+	EndGlobalSection
+EndGlobal

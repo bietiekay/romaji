@@ -1,0 +1,6 @@
+.vs
+packages/
+romaji/bin/
+romaji/obj/
+WanaKanaSharp/Core/bin
+WanaKanaSharp/Core/obj
